@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./assets/calculator-icon.svg" type="image/x-icon">
+
+  <title>Calcuradora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+        <div class="wrapper">
+  <main>
+    <div class="container">
+      <form action="" name="calc" class="calcuradora"> 
+        <!-- =====================================TELA-&-BOTÃO-C==================================================== -->
+        <input type="text" class="text maincolor" name="text1" disabled>
+
+        <input type="text" class="text1 maincolor" name="text2" 
+                  value="C" onclick="location.reload();">  
+        <br>
+        <!-- =====================================(7-8-9 +)==================================================== -->
+
+        <input type="button" class="num maincolor" name="btn7" value="7"
+                onclick="displaynum(btn7.value)"> 
+
+        <input type="button" class="num maincolor" name="btn8" value="8" 
+                onclick="displaynum(btn8.value)"> 
+
+        <input type="button" class="num maincolor" name="btn9" value="9" 
+                  onclick="displaynum(btn9.value)"> 
+
+        <input type="button" class="plus simcolor" name="addbtn" value="+" 
+                onclick="displaynum(addbtn.value)">
+
+        <br>
+        <!-- =====================================(4-5-6 -)==================================================== -->
+
+        <input type="button" class="num maincolor" name="btn4" value="4" 
+              onclick="displaynum(btn4.value)"> 
+
+        <input type="button" class="num maincolor" name="btn5" value="5" 
+                onclick="displaynum(btn5.value)"> 
+
+        <input type="button" class="num maincolor" name="btn6" value="6"
+                 onclick="displaynum(btn6.value)"> 
+
+        <input type="button" class="symbols simcolor" name="subbtn" value="-" 
+                onclick="displaynum(subbtn.value)"> 
+        <br>
+
+        <!-- =====================================(1-2-3 *)==================================================== -->
+
+        <input type="button" class="num maincolor" name="btn1" value="1" 
+                  onclick="displaynum(btn1.value)">
+
+        <input type="button" class="num maincolor" name="btn2" value="2" 
+                onclick="displaynum(btn2.value)"> 
+
+        <input type="button" class="num maincolor" name="btn3" value="3" 
+                onclick="displaynum(btn3.value)"> 
+
+        <input type="button" class="symbol simcolor" name="mutbtn" value="*" value="*" 
+                onclick="displaynum(mutbtn.value)"> 
+        <br>
+
+        <!-- =====================================(. 0 / =)==================================================== -->
+
+        <input type="button" class="dotbtn simcolor" name="dot" value="." 
+                onclick="displaynum(dot.value)"> 
+                
+        <input type="button" class="num maincolor" name="btn0" value="0" 
+                onclick="displaynum(btn0.value)"> 
+                
+        <input type="button" class="divs simcolor" name="divbtn" value="/" 
+                onclick="displaynum(divbtn.value)"> 
+
+        <input type="button" class="eql simcolor" name="eqlbtn" value="=" 
+                onclick="text1.value=eval(text1.value)"> 
+        <br>
+
+
+      </form>
+
+</div>
+</div>
+</main>
+<footer>
+        <p>
+                Feito com 💛 por
+                <a href="https://github.com/lyjaques">Leonardo Jaques</a>
+        </p>
+</footer>
+  
+</body>
+<script src="./js/scripts.js"></script>
+</html>

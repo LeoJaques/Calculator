@@ -1,0 +1,80 @@
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.wrapper {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.container {
+  background-color: rgba(102, 98, 98, 0.52);
+  padding: 10px;
+  border-radius:25px;
+  border: solid 2px;
+  display: inline-block;
+
+}
+
+input {
+  color: #fff;
+  padding: 16px;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 20px;
+  border: none;
+  margin: 5px;
+}
+
+.num {
+  width: 64px;
+  height: 67px;
+  
+}
+
+.maincolor {
+  background-color: rgba(1, 1, 1, 0.593);
+  
+}
+
+.text {
+  width: 190px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+
+}
+
+.text1 {
+  width: 24px;
+  height: 26px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgba(184, 21, 21, 0.63);
+}
+
+.simcolor {
+  width: 64px;
+  height: 67px;
+  background-color: rgba(59, 117, 129, 0.75);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  flex: 1;
+}
